@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: brown;
+}
+.dag{
+    width: 900px;
+    height: 500px;
+    background: url(img/Dag1.png);
+    margin: 100px auto;
+    animation: dag 20s infinite;
+}
+@keyframes dag {
+    25%{
+        background: url(img/Dag1.png);
+
+    }
+    50%{
+        background: url(img/dağ2.png);
+        animation-duration: 5s;
+        animation-delay: 2s;
+    }
+    75%{
+        background: url(img/dağ3.png);
+        animation-duration: 5s;
+        animation-delay: 2s;
+    }
+    100%{
+        background: url(img/dağ4.png);
+        animation-duration: 5s;
+        animation-delay: 2s;
+    }
+}
+#qutu{
+    border:2px solid black;
+    width: 100px;
+    border-radius: 25px;
+    margin-left: 1250px;
+    background-color: #bf00ff;
+    
+  
+  }
+  hr{
+    border-radius: 10px;
+    border: 2px solid black;
+  }
+  .qirmizi {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    animation-name: isiqfor1;
+    animation-duration: 8s;
+    border-radius:50px;
+  }
+  .sari {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    animation-name: isiqfor2;
+    animation-duration: 8s;
+    border-radius:50px;
+    animation-delay: 8s;
+  }
+  .yasil {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    animation-name: isiqfor3;
+    animation-duration: 8s;
+    border-radius:50px;
+    animation-delay: 16s;
+  }
+  
+  
+  @keyframes isiqfor1 {
+    from {background-color: #fff;}
+    to {background-color:red;}
+  }
+  @keyframes isiqfor2 {
+    from {background-color: #fff;}
+    to {background-color: yellow;}
+  }
+  @keyframes isiqfor3 {
+    from {background-color: #fff;}
+    to {background-color: green;}
+  }
